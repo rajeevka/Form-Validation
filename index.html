@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+   
+     <div class="container">
+    <h1 style="text-align: center;">Validating Web Forms</h1>
+
+    <label for="name">First Name</label><br>
+    <input onkeyup="inputValueChange()" type="text" id="name" placeholder="First Name">
+    <p id="helperText1"></p>
+     <label for="name">Last Name</label><br>
+    <input onkeyup="inputValueChange()" type="text" id="namelast" placeholder="Last Name">
+    <p id="helperTextlastname"></p>
+     <label for="name">Email</label><br>
+    <input onkeyup="inputValueChange()" type="text" id="email" placeholder="Enter Your Email">
+    <p id="helperText2"></p>
+     <label for="name">Phone Number</label><br>
+    <input onkeyup="inputValueChange()" maxlength="10" type="text" id="phonenumber"
+        placeholder="Enter Your Phone Number">
+    <p id="helperText4"></p>
+     <label for="name">Password</label><br>
+     <input onkeyup="inputValueChange()" id="password" placeholder="Password"  type="password">
+    <p id="helperText5"></p>
+     <label for="name">Bio</label><br>
+    <input onkeyup="inputValueChange()" id="Bio" placeholder="Bio"  type="text">
+    <p id="bio"></p>
+<p id="helperText6"></p>
+    <button onclick="submitData()" id="submitbutton">submit</button>
+    </div>
+    
+</body>
+
+</html>
